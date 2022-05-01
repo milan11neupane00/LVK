@@ -1,0 +1,263 @@
+*{
+	padding: 0px 10px;
+	border: 0;
+	box-sizing: border-box;
+}
+
+/* text Decoration */
+.head_text{
+	color: #0073b1;
+	font-size:xx-large
+}
+.body_text{
+	font-size: larger;
+	text-align: justify;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.m_text{
+	color: royalblue;
+	font-size: x-large;
+	font-style: inherit;
+}
+
+/* maequee */
+.milan{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: lightblue;
+}
+
+/* navbar */
+.nav{
+	display: flex;
+	background-color: aqua;
+	align-items: center;
+	justify-content: center;
+}
+.nav_logo{
+width: 30%;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 100;
+font-size: 75px;
+}
+.nav_link{
+	width: 70%;
+}
+.nav_link ul{
+	display: flex;
+	flex-direction: row-reverse;
+
+}
+
+/* hero Page */
+.hero{
+	background-image: url(./Media/cover.png);
+	height: 100vh;
+	 background-size: cover ;
+    background-repeat:repeat; 
+	
+}
+.intro{
+	display: flex;
+	align-content: center;
+	
+}
+.text{
+	width: 80%;
+}
+
+.notice{
+	width:40%;
+}
+
+
+/* input type */
+input[type=button]{
+	align-items: center;
+	width: 145px;
+	height:30px;
+	border-radius: 15px;
+	font-size: 25px;
+	background-color: cadetblue;
+}
+
+/* Login */
+.login{
+    background: lightgray;
+	border: solid #0073b1 2px;
+	display: grid;
+	grid-column: auto;
+	justify-content: center;
+    align-content: center;
+	height: 100vh;
+}
+.login p{
+	text-align: center;
+}
+button {
+	margin: auto;
+	align-items: center;
+	width: 145px;
+	height:30px;
+	border-radius: 15px;
+	font-size: 25px;
+	background-color: cadetblue;
+	    height: 60px;
+
+}
+button:hover{
+	background-color: red;
+}
+.input{
+	display: flex;
+	justify-content: center;
+    align-content: center;
+	padding: 10px, 45px;
+	height: 60px;
+}
+
+/* Form */
+form label{
+	font-size: 39px;
+	font-weight: bolder;
+	font-family: "times New Roman";
+}
+form input{
+	font-size: 29px;
+	font-weight: bolder;
+	font-family: "times New Roman";
+	border: 0.5px;
+	background-color: wheat;
+}
+.user{
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+}
+
+/* footer */
+.footer{
+	background-color: rgb(207, 189, 189);
+	display: flex;
+	justify-content: space-between;
+}
+footer{
+	display: flex;
+	background-color: aquamarine;
+}
+footer p{
+	padding: 5px 100px;
+}		
+
+
+/* Registation */
+.form{
+	display:flex ;
+	flex-direction: column;
+	align-items:center ;
+	justify-content: center;
+	border: 1px solid #0073b1;
+	width: auto !important;
+	height: auto!important;
+}
+
+
+
+ button {  
+	background-color: #4CAF50;  
+	color: white;  
+	padding: 16px 20px;  
+	margin: 8px 0;  
+	border: none;  
+	cursor: pointer;  
+	width: 100%;  
+	opacity: 0.9;  
+  }  
+ button:hover {  
+	opacity: 1;  
+  }  
+
+.main{
+	border: 2px solid black;
+	width: 20%;	
+}
+.main_gallery{
+	border: 2px solid black;
+	width: 40%;	
+}
+.main img{
+	width: auto !important;
+	height: auto!important;
+	padding: 10px, 20px, 10px, 20px;
+}
+.scholar{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	align-items: center;
+}
+a{
+	font-size: larger;
+	font-family: 'Times New Roman', Times, serif;
+	color: #0073b1;
+}
+a:hover{
+	color: red;
+
+}
+ol li{
+	list-style: number;
+}
+.main:hover{
+	opacity: 30;
+}
+.facilities{
+	background-color: rgb(255, 204, 204);
+}
+
+/* icons */
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	/* width: 50px; */
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  
+  .fa-google {
+	background: #dd4b39;
+	color: white;
+  }
+  
+  .fa-instagram{
+	background: #125688;
+	color: white;
+  }
+  .fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
